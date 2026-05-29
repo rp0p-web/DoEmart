@@ -1,0 +1,285 @@
+/* 🌌 BACKGROUND */
+
+.dashboard{
+  min-height:100vh;
+
+  background:
+    linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.95)),
+    url("https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=1600&q=80");
+
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+
+  padding:40px 20px;
+  color:white;
+  background: black !important;
+}
+
+/* 🔥 CAPSULE CENTER */
+
+.capsule{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+  padding:10px;
+  border-radius:50px;
+  width:max-content;
+  margin:0 auto 50px auto;
+  box-shadow:0 0 30px rgba(184,255,0,0.15);
+}
+
+/* BUTTON */
+
+.capsule button{
+  padding:10px 25px;
+  border-radius:30px;
+  border:none;
+  background:transparent;
+  color:#aaa;
+  cursor:pointer;
+  font-size:14px;
+  transition:all 0.3s ease;
+}
+
+.capsule button:hover{
+  color:black;
+  background:#b8ff00;
+}
+
+/* ACTIVE */
+
+.capsule .active{
+  background:#b8ff00;
+  color:black;
+}
+
+/* 🧾 TITLE */
+
+.title{
+  text-align:center;
+  margin-bottom:30px;
+  font-size:32px;
+}
+
+/* 🏪 SHOP CARD */
+
+.shop-card{
+  width:420px;
+  height:260px;
+  border-radius:30px;
+  overflow:hidden;
+  position:relative;
+  margin:auto;
+  box-shadow:0 20px 40px rgba(0,0,0,0.6);
+  transition:0.4s;
+}
+
+.shop-card:hover{
+  transform:scale(1.05);
+}
+
+/* IMAGE */
+
+.shop-card img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+/* OVERLAY */
+
+.shop-overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:linear-gradient(
+    90deg,
+    rgba(184,255,0,0.85),
+    rgba(184,255,0,0.4),
+    rgba(0,0,0,0.4)
+  );
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:30px;
+}
+
+/* TEXT */
+
+.shop-overlay h2{
+  font-size:24px;
+  font-weight:700;
+  color:black;
+}
+
+.shop-overlay p{
+  font-size:14px;
+  color:#111;
+  margin-top:10px;
+}
+
+/* CONTENT */
+
+.content{
+  text-align:center;
+}
+
+/* 📱 RESPONSIVE */
+
+@media(max-width:768px){
+
+  .shop-card{
+    width:90%;
+  }
+
+}
+.home-section{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  align-items:center;
+}
+
+.home-section input{
+  padding:10px;
+  width:300px;
+  border-radius:10px;
+  border:none;
+}
+
+.home-section button{
+  padding:10px 20px;
+  background:#b8ff00;
+  border:none;
+  border-radius:20px;
+  cursor:pointer;
+}
+
+.shop-card.big{
+  width:500px;
+  height:300px;
+  margin-top:20px;
+  position:relative;
+}
+
+.shop-card.big img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:20px;
+}
+
+.shop-card.big h2{
+  position:absolute;
+  bottom:20px;
+  left:20px;
+  color:white;
+  font-size:22px;
+}
+/* HOME AREA */
+.home-area{
+  display:flex;
+  justify-content:center;
+  margin-top:40px;
+}
+
+/* CARD */
+.shop-card-click{
+  width:320px;
+  height:200px;
+  border-radius:25px;
+  background:#111;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  overflow:hidden;
+  position:relative;
+  transition:0.3s;
+  box-shadow:0 10px 30px rgba(0,0,0,0.5);
+}
+
+.shop-card-click:hover{
+  transform:scale(1.05);
+}
+
+/* IMAGE */
+.shop-card-click img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.shop-card-click h3{
+  position:absolute;
+  bottom:15px;
+  left:15px;
+  color:white;
+  font-size:18px;
+}
+
+/* CREATE TEXT */
+.create-text{
+  color:#b8ff00;
+  font-size:18px;
+}
+
+/* POPUP */
+.popup{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.7);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* POPUP BOX */
+.popup-box{
+  background:#111;
+  padding:30px;
+  border-radius:20px;
+  width:300px;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.popup-box input{
+  padding:10px;
+  border:none;
+  border-radius:10px;
+  background:#222;
+  color:white;
+}
+
+/* BUTTONS */
+.popup-btns{
+  display:flex;
+  justify-content:space-between;
+}
+
+.popup-btns button{
+  padding:8px 15px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.popup-btns button:first-child{
+  background:#b8ff00;
+  color:black;
+}
+
+.popup-btns button:last-child{
+  background:#333;
+  color:white;
+}

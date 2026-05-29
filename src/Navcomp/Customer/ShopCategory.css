@@ -1,0 +1,115 @@
+/* PAGE BACKGROUND */
+
+.category-page{
+min-height:100vh;
+
+background: radial-gradient(circle at top, #111 0%, #0b0b0b 70%);
+
+padding:40px 0;
+}
+
+/* EACH CATEGORY BLOCK */
+
+.category-block{
+padding:50px 60px;
+
+margin-bottom:40px;
+
+background: linear-gradient(
+180deg,
+rgba(255,255,255,0.02),
+rgba(255,255,255,0.01)
+);
+
+border-radius:25px;
+
+backdrop-filter: blur(10px);
+
+transition:0.3s;
+}
+
+/* HOVER GLOW */
+
+.category-block:hover{
+box-shadow:0 0 40px rgba(184,255,0,0.08);
+}
+
+/* TITLE */
+
+.category-title{
+font-size:30px;
+font-weight:600;
+
+color:#ffffff;
+
+margin-bottom:25px;
+position:relative;
+display:inline-block;
+}
+
+/* GREEN ACCENT LINE */
+
+.category-title::after{
+content:"";
+position:absolute;
+
+left:0;
+bottom:-6px;
+
+width:45px;
+height:3px;
+
+background:#b8ff00;
+
+border-radius:2px;
+}
+
+/* SLIDER WRAPPER (SMOOTH LOOK) */
+
+.slider-wrapper{
+overflow:hidden;
+cursor:grab;
+}
+
+.slider-wrapper:active{
+cursor:grabbing;
+}
+
+/* OPTIONAL SCROLL SHADOW EFFECT */
+
+.slider-wrapper::before,
+.slider-wrapper::after{
+content:"";
+position:absolute;
+
+top:0;
+width:80px;
+height:100%;
+
+z-index:2;
+pointer-events:none;
+}
+
+.slider-wrapper::before{
+left:0;
+background:linear-gradient(to right,#0b0b0b,transparent);
+}
+
+.slider-wrapper::after{
+right:0;
+background:linear-gradient(to left,#0b0b0b,transparent);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.category-block{
+padding:30px 20px;
+}
+
+.category-title{
+font-size:22px;
+}
+
+}

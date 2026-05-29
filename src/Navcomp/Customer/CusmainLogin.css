@@ -1,0 +1,32 @@
+.login-page{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#0b0b0b;
+}
+
+.login-box{
+background:#111;
+padding:30px;
+border-radius:20px;
+width:300px;
+text-align:center;
+}
+
+.login-box input{
+width:100%;
+padding:10px;
+margin-bottom:15px;
+background:#1a1a1a;
+border:none;
+color:white;
+}
+
+.login-box button{
+width:100%;
+padding:10px;
+background:#b8ff00;
+border:none;
+cursor:pointer;
+}
