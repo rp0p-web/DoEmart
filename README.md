@@ -29,7 +29,7 @@ Technologies Used: React.js, Node.js, Express.js, MySQL, JavaScript, HTML5, CSS3
 
 ## Home Page
 
-![Home Page](public/images/dashboard.png)
+![Home Page](public/images/ppt_pic.png)
 
 ## Login Page
 
