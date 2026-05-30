@@ -25,3 +25,16 @@ To simulate a realistic business environment, a large dataset of shop records wa
 This project strengthened my understanding of full-stack development, REST API integration, database relationships, state management, and scalable web application design. It also reflects my ability to identify real-world problems, design user-centric solutions, and develop complete end-to-end software systems using modern web technologies.
 
 Technologies Used: React.js, Node.js, Express.js, MySQL, JavaScript, HTML5, CSS3, REST APIs.
+# DoEmart
+
+## Home Page
+
+![Home Page](public/images/dashboard.png)
+
+## Login Page
+
+![Login Page](public/images/login.png)
+
+## Dashboard
+
+![Dashboard](public/images/dashboard(cont).png)
