@@ -37,7 +37,7 @@ Technologies Used: React.js, Node.js, Express.js, MySQL, JavaScript, HTML5, CSS3
 
 ## Dashboard
 
-![Dashboard](public/images/dashboard_page(cont).png)
+![Dashboard](public/images/Dashboard_page(cont).png)
 
 ## All Shop
 ![All_Shop](public/images/ALL_stores_in_TN.png)
