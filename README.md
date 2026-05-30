@@ -33,8 +33,11 @@ Technologies Used: React.js, Node.js, Express.js, MySQL, JavaScript, HTML5, CSS3
 
 ## Login Page
 
-![Login Page](public/images/login.png)
+![Login Page](public/images/Login_page.png)
 
 ## Dashboard
 
 ![Dashboard](public/images/dashboard(cont).png)
+
+## All Shop
+![All_Shop](public/images/ALL_stores_in_TN.png)
